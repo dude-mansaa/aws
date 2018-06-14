@@ -12,7 +12,7 @@ config_schema:
   - ["aws", "o", {title: "AWS settings"}]
   - ["aws.thing_name", "s", "", {title: "Set thing name. If not specified, device.id is used"}]
   - ["aws.greengrass", "o", {title: "AWS Greengrass settings"}]
-  - ["aws.greengrass.enable", "b", false, {title: "Enable AWS Greengrass service"}]
+  - ["aws.greengrass.enable", "b", true, {title: "Enable AWS Greengrass service"}]
   - ["aws.greengrass.reconnect_timeout_min", "i", 2, {title: "Starting reconnect timeout"}]
   - ["aws.greengrass.reconnect_timeout_max", "i", 60, {title: "Maximum reconnect timeout"}]
 
